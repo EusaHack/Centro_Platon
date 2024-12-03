@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f3f0ed;
+    min-height: 88vh; /* Asegura que ocupe toda la altura de la pantalla */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+}
+.textSection {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.textSection h1, 
+.textSection h2, 
+.textSection h3 {
+    font-size: 2.5rem; /* Ajusta el tamaño según el diseño */
+    margin: 20px 0;
+    text-align: center;
+}
+.textSection h2, 
+.textSection h3{
+    text-decoration: underline;
+}
+
+.textSection p{
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+.buttonContainer {
+    display: flex; /* Usa flexbox para colocar los botones en fila */
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Asegura la alineación vertical */
+    gap: 60px; /* Espacio entre los botones */
+    margin-top: 60px; /* Espaciado superior para separar de otros elementos */
+}
+
+.imageSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}

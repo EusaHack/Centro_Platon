@@ -1,0 +1,26 @@
+.row-image, 
+.row-items {
+    width: 50%;
+    display: flex; /* Usamos flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.items-image {
+    width: 90%; /* Tamaño del contenedor para la imagen */
+}
+
+.image-menu {
+    width: 100%; /* La imagen se ajusta al contenedor padre */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.row-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas con igual tamaño */
+    grid-template-rows: auto auto;        /* Dos filas automáticas */
+    gap: 15px;                            /* Espacio entre los elementos */
+    justify-content: center;              /* Centra horizontalmente el contenido */
+    align-items: center;                  /* Centra verticalmente el contenido */
+    width: fit-content;                   /* Ajusta el ancho al contenido */
+    margin: 0px auto;                       /* Centra el grid en el contenedor padre */
+}
