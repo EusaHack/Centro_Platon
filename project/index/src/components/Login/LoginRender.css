@@ -1,0 +1,61 @@
+.container-log {
+    display: flex; /* Alinea las secciones en fila */
+    width: 100%; /* Ocupa el ancho total de la pantalla */
+    height: 88vh;
+    background-color: #f3f0ed; /* Ocupa toda la altura de la pantalla */
+  }
+  
+  .imageSection-log, .formSection-log {
+    flex: 1; /* Cada sección ocupa el 50% */
+    display: flex; /* Para centrar contenido dentro */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; 
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+  }
+  
+  
+  .image-log {
+    max-width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene proporciones */
+  }
+  
+  .formSection-log {
+    flex-direction: column; /* Elementos en columna */
+    padding: 40px; /* Espaciado interno */
+  }
+  
+  .input-log {
+    width: 60%; /* Campo ocupa todo el ancho disponible */
+    padding: 10px;
+    margin-bottom: 20px; /* Separación entre campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .title-log {
+    margin-bottom: 20px;
+    font-size: 2em; /* Título más grande */
+    color: #1B2A4F;
+  }
+
+  .btn-log {
+    background-color: #BBC7EE; /* Verde brillante */
+    color: #1B2A4F; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a "mano" */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animación */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 63%;
+  }
+
+  .vin-log{
+    margin-top: 10px;
+  }
+  
+  .txt-log{
+    color: #1B2A4F;
+  }
