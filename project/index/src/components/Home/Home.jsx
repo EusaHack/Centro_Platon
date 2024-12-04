@@ -2,6 +2,7 @@ import { SideNav } from "../NavBar/SideNav"
 import { HomeRender } from "./HomeRender"
 import { MenuRender } from "./MenuRender"
 import { ServiciosRender } from "./ServiciosRender"
+import { QuienRender } from "./QuienRender"
 export function Home() {
   return (
     <>
@@ -9,6 +10,7 @@ export function Home() {
         <HomeRender />
         <MenuRender />
         <ServiciosRender />
+        <QuienRender />
     </>
   )
 }

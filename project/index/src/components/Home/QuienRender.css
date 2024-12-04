@@ -1,0 +1,39 @@
+  .txt-principal {
+    font-size: 24px;
+    color: #1b2a4f;
+  }
+
+  .txt-secundario {
+    font-size: 36px;
+    color: #98acee;
+    font-weight: bold;
+  }
+
+  .txt-tercero {
+    font-size: 24px;
+    color: #1b2a4f;
+  }
+
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 50px;
+  }
+
+  .text-section p {
+    margin: 5px 0; /* Reduce el espacio entre párrafos */
+    line-height: 1.4; /* Ajusta el espacio entre líneas dentro de los párrafos */
+  }
+  
+  .image-section {
+    flex: 1; /* Ajusta el tamaño proporcional de esta sección */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    max-width: 80%;
+    height: auto; /* Mantener proporción de la imagen */
+  }
