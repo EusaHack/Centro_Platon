@@ -1,0 +1,45 @@
+.card-con {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  .card-header-con {
+    display: flex; /* Flexbox para el diseño */
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    gap: 10px; /* Espacio entre el ícono y el texto */
+    background-color: #1B2A4F; /* Fondo del contenedor */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1px; /* Aumenta el espacio interno para mejor apariencia */
+    text-align: center;
+    position: relative;
+}
+
+
+  .txt-con{
+    color: #fff;
+  }
+
+  .card-body-con {
+    padding: 20px;
+    text-align: center;
+    background-color: #98acee;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .txt-card-con {
+    text-align: center;
+    color: #1b2a4f;
+}
+
+.txt-card-ama-con {
+    text-align: center;
+    color: #ffde61;
+}
+
+.card-body-con img {
+    width: 70%;
+}
