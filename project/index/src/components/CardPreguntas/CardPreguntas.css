@@ -1,0 +1,24 @@
+.dropdown {
+    position: relative;
+  }
+  
+  .dropbtn {
+    background-color: #98acee;
+    color: #1b2a4f;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 700px;
+    border-radius: 5px;
+  }
+
+  .dropdown .dropbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Asegura que el botón ocupe todo el ancho disponible */
+  }
+  
+  .dropdown .dropbtn svg {
+    margin-left: 10px; /* Ajusta el espacio entre el texto y el ícono si es necesario */
+  }

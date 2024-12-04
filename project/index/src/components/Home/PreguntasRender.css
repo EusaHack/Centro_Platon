@@ -1,0 +1,26 @@
+.preguntas-img {
+    flex: 1; /* Ajusta el tamaño proporcional de esta sección */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .preguntas-img img {
+    max-width: 80%;
+    height: auto; /* Mantener proporción de la imagen */
+  }
+
+  .preguntas .btn-preguntas {
+    display: flex;
+    flex-direction: column; /* Asegura que las tarjetas estén apiladas verticalmente */
+    gap: 40px; /* Espaciado entre las tarjetas */
+    margin-left: 40px;
+  }
+
+  .preguntas h2 {
+    font-size: 36px; /* Aumenta el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 60px; /* Agrega espacio debajo del título */
+    margin-top: 20px;
+    color: #1b2a4f;
+  }

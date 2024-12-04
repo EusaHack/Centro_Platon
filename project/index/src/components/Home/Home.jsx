@@ -3,6 +3,8 @@ import { HomeRender } from "./HomeRender"
 import { MenuRender } from "./MenuRender"
 import { ServiciosRender } from "./ServiciosRender"
 import { QuienRender } from "./QuienRender"
+import { PreguntasRender } from "./PreguntasRender"
+
 export function Home() {
   return (
     <>
@@ -11,6 +13,7 @@ export function Home() {
         <MenuRender />
         <ServiciosRender />
         <QuienRender />
+        <PreguntasRender />
     </>
   )
 }
