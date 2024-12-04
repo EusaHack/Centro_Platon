@@ -1,0 +1,24 @@
+.container-ser {
+    text-align: center; /* Centra el texto y los elementos en la contenedor */
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    background-color: #f3f0ed;
+    min-height: 88vh;
+    box-sizing: border-box;
+  }
+  
+  .titulo-cards h1 {
+    margin-top: 80px;
+    margin-bottom: 100px; /* Espaciado entre el título y los cards */
+    font-size: 2rem;
+    color: #1b2a4f; /* Tamaño del título */
+  }
+  
+  .cards-ser {
+    display: flex; /* Coloca los elementos en una fila */
+    justify-content: center; /* Centra horizontalmente las cards */
+    gap: 50px; /* Espacio entre las cards */
+    flex-wrap: wrap; /* Permite que las cards pasen a la siguiente fila si no caben */
+  }
+  
