@@ -10,7 +10,7 @@ export function HomeRender() {
                 <p>Brindamos terapia psicologica presencial y en linea.</p>
                 <div className="buttonContainer">
                     <ButtonTxt txtButton="Conocenos más" to="/" color="#bbc7ee" sombraColor="#93a0c8" colorTexto="#1b2a4f"/>
-                    <ButtonTxt txtButton="Regístrate" to="/login" color="#1b2a4f" sombraColor="#314b8b" colorTexto="#fff"/>
+                    <ButtonTxt txtButton="Regístrate" to="/register" color="#1b2a4f" sombraColor="#314b8b" colorTexto="#fff"/>
                 </div>
             </div>
             <div className="imageSection">

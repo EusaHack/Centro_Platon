@@ -1,0 +1,70 @@
+.container-reg {
+    display: flex; /* Alineación horizontal */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Centrado vertical */
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+    height: 88vh;
+    box-sizing: border-box; 
+    background-color: #f3f0ed;/* Asegura que padding no desborde */
+  }
+  
+  .form-register {
+    flex: 1; /* Ocupa 50% del espacio */
+    max-width: 600px;
+    padding: 20px;
+    margin-left: 40px;
+  }
+  
+  .title-reg {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B2A4F;
+    margin-bottom: 10px;
+  }
+  
+  .txt-reg {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #1B2A4F;
+  }
+  
+  .input-reg {
+    width: 100%; /* Abarca todo el contenedor */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Para ajustar el padding */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .imageSection-reg {
+    flex: 1; /* Ocupa el otro 50% */
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .image-reg {
+    width: 100%; /* Imagen se ajusta al contenedor */
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */ 
+  }
+
+  .btn-reg {
+    background-color: #BBC7EE; /* Verde brillante */
+    color: #1B2A4F; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a "mano" */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animación */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 15px;
+  }
