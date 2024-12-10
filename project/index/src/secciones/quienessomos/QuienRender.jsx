@@ -17,7 +17,7 @@ export  function QuienRender() {
             </p>
         </div>
         <div className="image-section">
-            <img src="images/Psychologist-rafiki.png" alt="Descripción de la imagen" />
+            <img src="images/Psychologist-bro.png" alt="Descripción de la imagen" />
         </div>
     </div>
   )

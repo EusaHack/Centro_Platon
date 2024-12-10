@@ -1,5 +1,5 @@
 
-import { SideNav } from "../NavBar/SideNav"
+import { SideNav } from "../../components/NavBar/SideNav"
 import { RegisterRender } from "./RegisterRender"
 
 export function Register() {

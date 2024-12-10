@@ -1,5 +1,5 @@
 import "./PreguntasRender.css"
-import {CardPreguntas} from "../CardPreguntas/CardPreguntas"
+import {CardPreguntas} from "../../components/CardPreguntas/CardPreguntas"
 
 export function PreguntasRender() {
   return (

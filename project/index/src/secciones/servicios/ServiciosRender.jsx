@@ -1,4 +1,4 @@
-import { CardServicios } from "../CardServicios/CardServicios"
+import { CardServicios } from "../../components/CardServicios/CardServicios"
 import "./ServiciosRender.css"
 
 export function ServiciosRender() {

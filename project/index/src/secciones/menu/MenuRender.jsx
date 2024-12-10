@@ -1,4 +1,4 @@
-import { CardMenu } from "../CardMenu/CardMenu";
+import { CardMenu } from "../../components/CardMenu/CardMenu"
 import "./MenuRender.css"
 
 export function MenuRender() {

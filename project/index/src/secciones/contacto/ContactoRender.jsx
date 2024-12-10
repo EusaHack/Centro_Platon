@@ -1,4 +1,4 @@
-import {CardContacto} from '../CardContacto/CardContacto'
+import {CardContacto} from '../../components/CardContacto/CardContacto'
 import './ContactoRender.css'
 
 export function ContactoRender() {

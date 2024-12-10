@@ -1,4 +1,4 @@
-import { ButtonTxt } from "../Button/Buttontxt";
+import { ButtonTxt } from "../../components/Button/Buttontxt";
 import "./HomeRender.css";
 export function HomeRender() {
     return (
