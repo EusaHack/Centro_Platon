@@ -2,7 +2,7 @@ import "./QuienRender.css"
 
 export  function QuienRender() {
   return (
-    <div className="container">
+    <div className="container-quien">
         <div className="text-section">
             <p className="txt-principal">¿Quiénes Somos?</p>
             <p className="txt-secundario">

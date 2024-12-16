@@ -82,6 +82,12 @@
     background-color: #0056b3; /* Lighter Blue */
   }
   
+  .nav-link {
+    cursor: pointer; /* Muestra la manita */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+    transition: color 0.3s ease; /* Opcional: efecto visual */
+  }
+
   /* Mobile Menu Button */
   .menu-toggle {
     display: none;

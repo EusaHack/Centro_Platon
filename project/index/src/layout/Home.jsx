@@ -1,6 +1,5 @@
 import { SideNav } from "../components/NavBar/SideNav"
 import { HomeRender } from "../secciones/index/HomeRender"
-import { MenuRender } from "../secciones/menu/MenuRender"
 import { ServiciosRender } from "../secciones/servicios/ServiciosRender"
 import { QuienRender } from "../secciones/quienessomos/QuienRender"
 import { PreguntasRender } from "../secciones/preguntas/PreguntasRender"
@@ -10,12 +9,21 @@ export function Home() {
   return (
     <>
         <SideNav />
-        <HomeRender />
-        <MenuRender />
-        <ServiciosRender />
-        <QuienRender />
-        <PreguntasRender />
-        <ContactoRender />
+        <div id="inicio">
+          <HomeRender />
+        </div>
+        <div id="servicios">
+          <ServiciosRender />
+        </div>
+        <div id="quienessomos">
+          <QuienRender />
+        </div>
+        <div id="preguntas">
+          <PreguntasRender />
+        </div>
+        <div id="contacto">
+          <ContactoRender />
+        </div>
     </>
   )
 }

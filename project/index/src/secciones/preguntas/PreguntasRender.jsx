@@ -3,7 +3,7 @@ import {CardPreguntas} from "../../components/CardPreguntas/CardPreguntas"
 
 export function PreguntasRender() {
   return (
-    <div className="container">
+    <div className="container-preg">
         <div className="preguntas">
             <h2>Preguntas Frecuentes</h2>
             <div className="btn-preguntas">

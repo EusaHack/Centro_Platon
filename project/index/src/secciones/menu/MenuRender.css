@@ -24,3 +24,26 @@
     width: fit-content;                   /* Ajusta el ancho al contenido */
     margin: 0px auto;                       /* Centra el grid en el contenedor padre */
 }
+
+@media (max-width: 768px) {
+    .row-items {
+      grid-template-columns: 1fr;
+      padding: 45px;
+      gap: 30px;
+    }
+    .row-image{
+        display: none;
+    }
+  }
+
+  
+@media (max-width: 480px) {
+    .row-items {
+      grid-template-columns: 1fr;
+      font-size: 12px;
+    }
+    .card {
+        width: 250px;
+    }
+    
+  }
