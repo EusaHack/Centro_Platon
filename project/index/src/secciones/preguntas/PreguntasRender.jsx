@@ -7,11 +7,16 @@ export function PreguntasRender() {
         <div className="preguntas">
             <h2>Preguntas Frecuentes</h2>
             <div className="btn-preguntas">
-                <CardPreguntas />
-                <CardPreguntas />
-                <CardPreguntas />
-                <CardPreguntas />
-                <CardPreguntas />
+                <CardPreguntas
+                txtPreg={"Aliquam et justo sed dui efficitur varius ullamcorper eu el"} />
+                <CardPreguntas
+                txtPreg={"Aliquam et justo sed dui efficitur varius ullamcorper eu el"} />
+                <CardPreguntas
+                txtPreg={"Aliquam et justo sed dui efficitur varius ullamcorper eu el"} />
+                <CardPreguntas
+                txtPreg={"Aliquam et justo sed dui efficitur varius ullamcorper eu el"} />
+                <CardPreguntas
+                txtPreg={"Aliquam et justo sed dui efficitur varius ullamcorper eu el"} />
             </div>
         </div>
         <div className="preguntas-img">

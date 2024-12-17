@@ -1,10 +1,10 @@
 import "./CardContacto.css"
 
-export function CardContacto({ContactoImg}) {
+export function CardContacto({ContactoImg,txtContac}) {
   return (
     <div className="card-con">
         <div className="card-header-con">
-            <h2 className="txt-con"> Contacto </h2>
+            <h2 className="txt-con"> {txtContac} </h2>
         </div>
         <div className="card-body-con">
             <p className="txt-card-con">No. telefono</p>

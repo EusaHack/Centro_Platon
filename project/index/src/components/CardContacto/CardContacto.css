@@ -43,3 +43,9 @@
 .card-body-con img {
     width: 70%;
 }
+
+@media (max-width: 480px) {
+  .card-con {
+    width: 300px;
+  }
+}

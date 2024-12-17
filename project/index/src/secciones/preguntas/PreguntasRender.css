@@ -36,3 +36,30 @@
     margin-top: 20px;
     color: #1b2a4f;
   }
+
+  @media (max-width: 768px) {
+    .container-preg {
+      flex-direction: column;
+      padding-top: 130px; /* Apila el contenido en dispositivos más pequeños */
+    }
+    .preguntas-img {
+      max-width: 60%; /* Oculta la imagen en pantallas pequeñas */
+    }
+    .preguntas .btn-preguntas {
+      margin-left: 0; /* Elimina el margen izquierdo */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .cards-ser {
+      display: flex;
+      flex-wrap: wrap; /* Permite que los cards se envuelvan a la siguiente línea */
+      justify-content: center; /* Centra los cards horizontalmente */
+    }
+    .preguntas-img {
+      display: none; /* Oculta la imagen en pantallas pequeñas */
+    }
+    .preguntas h2 {
+      font-size: 30px;
+    }
+  }

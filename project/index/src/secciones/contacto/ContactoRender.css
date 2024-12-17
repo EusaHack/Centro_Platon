@@ -1,0 +1,24 @@
+.container-contac{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f3f0ed;
+  min-height: 88vh; /* Asegura que ocupe toda la altura de la pantalla */
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+  
+@media (max-width: 768px) {
+    .container-contac {
+      flex-direction: column; /* Apila los elementos verticalmente */
+      align-items: center;
+      padding: 30px; /* Menor espacio en dispositivos pequeños */
+      gap: 25px;
+      padding-top: 130px;
+    }
+    .container-contac img {
+      width: 80%; /* Redimensiona las imágenes */
+      max-width: 300px;
+    }
+  }

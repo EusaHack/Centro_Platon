@@ -5,20 +5,28 @@
   .dropbtn {
     background-color: #98acee;
     color: #1b2a4f;
-    padding: 10px;
-    font-size: 16px;
+    padding: 2px;
     border: none;
     cursor: pointer;
-    width: 700px;
+    width: 600px;
     border-radius: 5px;
-  }
 
-  .dropdown .dropbtn {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Asegura que el botón ocupe todo el ancho disponible */
+    align-items: center;
+  }
+
+  .dropbtn p {
+    margin: 10px; /* Elimina el margen por defecto */
+    font-size: 16px;
   }
   
   .dropdown .dropbtn svg {
     margin-left: 10px; /* Ajusta el espacio entre el texto y el ícono si es necesario */
   }
+  
+@media (max-width: 480px) {
+  .dropbtn {
+      width: 300px;
+  }
+}
