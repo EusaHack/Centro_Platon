@@ -1,5 +1,5 @@
 .card-ser {
-    background-color: #fff;
+    background-color: #98acee;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 400px;
@@ -31,7 +31,7 @@
   }
 
   .txt-card-ser {
-    text-align: justify;
+    text-align: start;
     color: #fff;
 }
 

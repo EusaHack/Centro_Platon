@@ -6,7 +6,7 @@
   background-color: #f3f0ed;
   min-height: 88vh; /* Asegura que ocupe toda la altura de la pantalla */
   box-sizing: border-box;
-  padding-top: 60px;
+  padding-top: 40px;
 }
   
 @media (max-width: 768px) {
@@ -14,8 +14,8 @@
       flex-direction: column; /* Apila los elementos verticalmente */
       align-items: center;
       padding: 30px; /* Menor espacio en dispositivos pequeños */
-      gap: 25px;
-      padding-top: 130px;
+      padding-top: 110px;
+      gap: 60px;
     }
     .container-contac img {
       width: 80%; /* Redimensiona las imágenes */

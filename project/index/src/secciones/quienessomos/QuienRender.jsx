@@ -6,14 +6,13 @@ export  function QuienRender() {
         <div className="text-section">
             <p className="txt-principal">¿Quiénes Somos?</p>
             <p className="txt-secundario">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Duis non efficitur nulla. Fusce quis lacinia ipsum. Nullam 
-            commodo nunc ut hendrerit lobortis.
+            Somos un centro de atención psicológica con cinco años de experiencia, 
+            especializado en terapia para niños, adolescentes y adultos, incluyendo 
+            sesiones individuales, de pareja y familiares.
             </p>
             <p className="txt-tercero">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non 
-            efficitur nulla. Fusce quis lacinia ipsum. Nullam commodo nunc ut hendrerit 
-            lobortis. Pellentesque vehicula eu dui id auctor. Pellentesque tempor venenatis urna, at ornare diam accumsan in. Etiam et erat quis elit.
+            Ofrecemos también planes empresariales para mejorar el bienestar emocional 
+            de los colaboradores y fortalecer la salud integral de los equipos de trabajo.
             </p>
         </div>
         <div className="image-section">

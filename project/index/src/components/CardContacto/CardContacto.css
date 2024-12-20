@@ -1,8 +1,9 @@
 .card-con {
-    background-color: #fff;
+    background-color: #98acee;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 400px;
+    position: relative;
   }
 
   .card-header-con {
@@ -15,7 +16,6 @@
     border-top-right-radius: 10px;
     padding: 1px; /* Aumenta el espacio interno para mejor apariencia */
     text-align: center;
-    position: relative;
 }
 
 
@@ -28,21 +28,27 @@
     text-align: center;
     background-color: #98acee;
     border-radius: 0px 0px 10px 10px;
+    height: calc(100% - 40px); /* Ajusta la altura del cuerpo */
+    overflow-y: auto;
   }
 
   .txt-card-con {
     text-align: center;
     color: #1b2a4f;
+    font-size: 1rem;
 }
 
 .txt-card-ama-con {
     text-align: center;
     color: #ffde61;
+    font-size: 1rem;
 }
 
 .card-body-con img {
-    width: 70%;
+    width: 60%;
 }
+
+
 
 @media (max-width: 480px) {
   .card-con {
