@@ -1,7 +1,7 @@
 
 import { SideNavTwo } from "../../components/NavBarTwo/SideNavTwo"
 import { RegisterRender } from "./RegisterRender"
-import { HomeIcon } from "../../components/icons/HomeIcon";
+import { HomeIcon } from "../../components/icons/HomeIcon"
 
 
 const menuItems = [

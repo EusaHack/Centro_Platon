@@ -5,7 +5,7 @@
     background-color: #f3f0ed; /* Ocupa toda la altura de la pantalla */
   }
   
-  .imageSection-log, .formSection-log {
+  .formSection-log,.imageSection-log {
     flex: 1; /* Cada sección ocupa el 50% */
     display: flex; /* Para centrar contenido dentro */
     justify-content: center; /* Centra horizontalmente el contenido */
@@ -58,4 +58,31 @@
   
   .txt-log{
     color: #1B2A4F;
+  }
+
+
+  @media (max-width: 1440px){
+    .container-log{
+      height: 90vh;
+    }
+  }
+
+  @media (max-width: 768px){
+    .container-log{
+      height: 92vh;
+      flex-direction: column;
+    }
+    .image-log {
+      max-width: 50% /* Imagen se ajusta al contenedor */
+    }
+  }
+
+  @media (max-width: 480px){
+    .container-log {
+      flex-direction: column; /* Stack elements vertically on mobile */
+    }
+    
+    .image-log{
+      max-width: 60%;
+    }
   }
