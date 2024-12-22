@@ -15,8 +15,8 @@
   
   
   .image-log {
-    max-width: 100%; /* Ajusta el tamaño de la imagen */
-    height: auto; /* Mantiene proporciones */
+    width: 100%; /* Imagen se ajusta al contenedor */
+    max-width: 600px; /* Ajusta el tamaño de la imagen */
   }
   
   .formSection-log {
