@@ -1,0 +1,20 @@
+.txt-reg {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #1B2A4F;
+  }
+  
+  .input-reg {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+
+  

@@ -6,7 +6,7 @@
   background-color: #f3f0ed;
   min-height: 88vh; /* Asegura que ocupe toda la altura de la pantalla */
   box-sizing: border-box;
-  padding-top: 60px; /* Baja el contenido interior */
+  padding-top: 30px; /* Baja el contenido interior */
 }
 
 .preguntas-img {
@@ -25,7 +25,7 @@
   .preguntas .btn-preguntas {
     display: flex;
     flex-direction: column; /* Asegura que las tarjetas estén apiladas verticalmente */
-    gap: 40px; /* Espaciado entre las tarjetas */
+    gap: 30px; /* Espaciado entre las tarjetas */
     margin-left: 40px;
   }
 
@@ -36,14 +36,39 @@
     margin-top: 20px;
     color: #1b2a4f;
   }
+.modal-title{
+  color: #98acee;
+}
 
+.modal-text{
+  color: #1B2A4F;
+}
+
+.modal-button {
+  display: block; 
+  margin: 10px auto; 
+  background-color: #98acee; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  padding: 10px 20px;
+  font-size: 16px; 
+  cursor: pointer; 
+}
+.modal-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%; /* Se adapta al tamaño del contenedor */
+  height: auto;
+  border-radius: 10px;
+}
   @media (max-width: 768px) {
     .container-preg {
       flex-direction: column;
-      padding-top: 130px; /* Apila el contenido en dispositivos más pequeños */
+      padding-top: 100px; /* Apila el contenido en dispositivos más pequeños */
     }
     .preguntas-img {
-      max-width: 60%; /* Oculta la imagen en pantallas pequeñas */
+      max-width: 55%; /* Oculta la imagen en pantallas pequeñas */
     }
     .preguntas .btn-preguntas {
       margin-left: 0; /* Elimina el margen izquierdo */
